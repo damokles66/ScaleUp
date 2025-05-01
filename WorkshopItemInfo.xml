@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2888192881</PublishedFileId>
+  <Name>Scale Up</Name>
+  <Description>Increases output of later modules to match their costs. This results in less need to spread out, and building up your colonies becoming more viable:
+
+I didn't like how the output of some tier2/3 buildings scaled compared to their predecessors:
+I weighted the costs of the consumed resources as the selling cost and assumed a value of 4.5 for volatiles and water.
+I further assumed that each higher tier should improve efficency by 25%.
+
+Calculations done here: https://docs.google.com/spreadsheets/d/1kbdrbn9GRRSzWrncp68BoGihnSmEwzVs-3IEFvHB610
+
+Resulting in the following changes:
+
+Research Universities: 200-&gt;420
+
+Fission Reactor: 42-&gt;46
+Fission Reactor Farm: 125-&gt;180
+
+Fusion Array: 85-&gt;100
+Fusion Farm: 250-&gt;360
+Heavy Fusion Farm: 450-&gt;1100 !
+
+Atomsmasher 0.01 -&gt; 0.023 (only module that got adjusted in the base tier)
+
+Removed MC costs from all but the colony main building(e.g. Mining installation and research universities).
+
+Increased the mining output modifier to be on par with alien mining buildings:
+Settlement Mining: 1.5 -&gt; 2
+Colony Mining: 2-&gt;4
+
+Increased MC generation of:
+Operations Center: 1-&gt;2
+Control Center: 2-&gt;4
+
+
+For more ways to upscale production you can checkout [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2887840263]More Tech[/url]
+</Description>
+  <IconFileName>Scale Up.png</IconFileName>
+  <Tags />
+</WorkshopItemInfo>
